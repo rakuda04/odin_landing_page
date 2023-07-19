@@ -6,7 +6,7 @@
     
 }
 .container1 , .container2 , .container3 , .container {
-    height: 25%;  !important
+    height: 25%;    
     
 }
 
@@ -114,9 +114,9 @@ background-color: #50b0b9;
 }
 
 .button4 {
-
+display: flex;
 }
-カラー＿パレット
+/* カラー＿パレット
 #c67aa9
 #7b8eb6
 #feefbf
@@ -128,4 +128,4 @@ or
 #883638
 #ebd8c2
 #50b0b9
-#236377
+#236377  */
