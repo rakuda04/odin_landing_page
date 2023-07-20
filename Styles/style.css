@@ -10,7 +10,7 @@ html, body{
     }
 
 .container1 , .container2 , .container3 , .container4 {
-  height: 25%;
+  height: 22.3%;
   flex: 1;
   display: flex;
   flex-direction: column;
@@ -27,7 +27,9 @@ html, body{
     display: flex;
     flex-direction: row;
     background-color: #feefbf;
+    font-family: kenji;
 }
+
 .header{
 justify-content: flex-start;
 margin-top: 15px;
@@ -65,11 +67,13 @@ margin-left: 15px;
 
 #title1{
     color: blueviolet;
-    font-size: 25px;
+    font-size: 50px;
+    font-family: kenji;
 }
 
 #subtext1{
-    font-size: 10px;
+    font-size: 20px;
+    font-family: kenji;
 }
 
 .my-button {
@@ -129,12 +133,17 @@ margin-left: 15px;
 
 #quote {
   font-style: italic;
-  font-size: large;
+  font-size: 35px;
+  color: #48bf91;
+  font-weight: 1000;
+  font-family: fuwafuwa;
 }
 
 #writer {
   font-weight: 1000;
   text-align: end;
+  color: #48bf91;
+  font-family: fuwafuwa;
 }
 
 .container4 {
@@ -166,11 +175,13 @@ margin-right: auto;
 .title4 {
   font-size: larger;
 font-weight: bolder;
+color: #800080;
+font-family: kenji;
 }
 
 .subtitle4 {
-
-
+  color: #800080;
+  font-family: kenji;
 }
 
 
@@ -197,12 +208,24 @@ padding-top: 15px;
 text-align: center;
 background-color: #feefbf;
 display: flex;
-    flex-direction: row;
-    background-color: #feefbf;
+flex-direction: row;
+background-color: #feefbf;
+font-family: kenji;
+font-weight: 1000;
+    
 }
 
 .うつくし{
-  font-family: u;
+  font-family: fuwafuwa;
+}
+
+@font-face {
+  font-family: fuwafuwa;
+  src: url(/Fonts/FuwaFude.ttf);
+}
+  @font-face {
+    font-family: kenji;
+    src: url(/Fonts/ZenKurenaido-Regular.ttf);
 }
 /* カラー＿パレット
 #c67aa9
