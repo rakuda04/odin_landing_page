@@ -1,8 +1,6 @@
 html, body{
     height: 100%;
     margin: 0;
-    width: 1000px;
-   align-items: center;
 }
 
     .body{
@@ -21,11 +19,14 @@ html, body{
 
 .container1{
    background-color: #FDBEB7; 
+   align-items: center;
+   justify-content: center;
 }
 
 .heading{
     display: flex;
     flex-direction: row;
+    background-color: #feefbf;
 }
 .header{
 justify-content: flex-start;
@@ -48,8 +49,10 @@ margin-left: 15px;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    width: 500px; /* review this*/
+    width: 800px; /* review this*/
     gap: 50px;
+    border: none;
+    border-radius: 4px;
 }
 
 .insidebody1{
@@ -95,23 +98,23 @@ margin-left: 15px;
   }
 
   #body2 {
-display: flex;
-justify-content: center;
-gap: 50px;
-text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    text-align: center;
   }
 
   .card{
     display: flex;
     flex-direction: column;
     border-radius: 10px 20px 15px 5px;
-  border: #dec57f; 
+   border: #dec57f; 
     border-color: #236377;
   }
 
 .container3 {
-background-color: #883638;
-display: flex;
+  background-color: #883638;
+  display: flex;
   justify-content: center; /* Horizontally center the content */
   align-items: center; 
 }
@@ -125,48 +128,82 @@ display: flex;
 }
 
 #quote {
-font-style: italic;
-font-size: large;
+  font-style: italic;
+  font-size: large;
 }
 
 #writer {
-font-weight: 1000;
-text-align: end;
+  font-weight: 1000;
+  text-align: end;
 }
 
 .container4 {
 background-color: #50b0b9;
 justify-content: center;
   align-items: center;
+  flex-direction: row;
 }
 
 .body4 {
 display: flex;
+flex-direction: row;
 justify-content: center;
 align-items: center;
 width: 600;
 height: 80;
-border-color: aliceblue;
+border: none;
+border-radius: 4px;
 background-color: navajowhite;
+
 }
+
+.insidebody4 {
+justify-content: center;
+padding-left: 50px;
+margin-right: auto;
+}
+
+.title4 {
+  font-size: larger;
+font-weight: bolder;
+}
+
+.subtitle4 {
+
+
+}
+
 
 .button4 {
-  padding: 10px 20px;
-  background-color: #007bff;
+  padding: 10px 10px;
+  background-color: #c67aa9;
   color: #fff;
   border: none;
-  border-radius: 4px;
-  font-size: 16px;
+  border-radius: 5px;
+  font-size: 12px;
   font-weight: bold;
   text-align: center;
-  text-decoration: none;
   cursor: pointer;
-  animation: colorChange 6s linear infinite;
-  
 }
 
+#movebutton {
+margin-right: 50px;
+}
 
+.footer {
+  justify-content: center;
+padding-bottom: 15px;
+padding-top: 15px;
+text-align: center;
+background-color: #feefbf;
+display: flex;
+    flex-direction: row;
+    background-color: #feefbf;
+}
 
+.うつくし{
+  font-family: u;
+}
 /* カラー＿パレット
 #c67aa9
 #7b8eb6
